@@ -1,5 +1,6 @@
-﻿<html>
-{% load static %}
+﻿{% load static %}
+<html>
+
 <head>
     <link href="{% static 'facbook/css/Style.css' %}" rel="stylesheet" />
     <title>Facebook home page template html</title>
@@ -11,10 +12,6 @@
             <form action="", method="POST">
                 {% csrf_token %}
                 {{ form.as_p }}
-{#                <li>Email or Phone<br><input type="text" name="email"></li>#}
-{#                <li>Password<br><input type="password" name="password"><br><a href="">Forgotten account?</a></li>#}
-
-
                 <li><input type="submit" class="btn btn-success" value="Log In"></li>
             </form>
 
