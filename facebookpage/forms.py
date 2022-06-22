@@ -6,3 +6,4 @@ class UserRegistrationForm(forms.ModelForm):
     class Meta:
         model = UserPerson
         fields = ['name', 'password']
+

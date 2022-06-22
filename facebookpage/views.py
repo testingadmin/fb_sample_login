@@ -16,3 +16,4 @@ def add_show(request):
     stud = UserPerson.objects.all()
         # print(stud)
     return render(request, 'facebookpage/HtmlDemo.html', {"form": fm, "stu": stud})
+

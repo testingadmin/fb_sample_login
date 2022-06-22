@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc783ef-7d20-408f-a327-c71eef4972d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebooklogin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebooklogin/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="ecc783ef-7d20-408f-a327-c71eef4972d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655889445531</updated>
       <workItem from="1655889446826" duration="943000" />
-      <workItem from="1655892397544" duration="2200000" />
+      <workItem from="1655892397544" duration="2644000" />
     </task>
     <servers />
   </component>

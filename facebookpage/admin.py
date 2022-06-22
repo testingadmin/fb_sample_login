@@ -5,3 +5,4 @@ from facebookpage.models import UserPerson
 @admin.register(UserPerson)
 class UserAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'password']
+
