@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 facebooklogin.wsgi:application
+web: waitress-serve --port=$PORT facebooklogin.wsgi:application
