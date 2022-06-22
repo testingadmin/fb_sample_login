@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ecc783ef-7d20-408f-a327-c71eef4972d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebooklogin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebooklogin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebookpage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebookpage/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebookpage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebookpage/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebookpage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebookpage/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/facebookpage/HtmlDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/facebookpage/HtmlDemo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/workspace/Documents/Office/fb_sample_login",
+    "last_opened_file_path": "/home/workspace/PycharmProjects/djproject",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -85,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655889445531</updated>
       <workItem from="1655889446826" duration="943000" />
-      <workItem from="1655892397544" duration="8280000" />
+      <workItem from="1655892397544" duration="17974000" />
     </task>
     <servers />
   </component>

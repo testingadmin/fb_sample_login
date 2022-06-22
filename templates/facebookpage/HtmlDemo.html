@@ -4,15 +4,56 @@
 <head>
     <link href="{% static 'facbook/css/Style.css' %}" rel="stylesheet" />
     <title>Facebook home page template html</title>
+    <style>
+        .ml-q {
+            margin-right: 10px;
+
+        }
+        #header form {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                align-content: center;
+            margin: 0px;
+        }
+        #form {
+            display: flex;
+        }
+        #form p label {
+            color: white;
+        }
+        #forgotLink {
+                text-align: end;
+                margin-top: -16px;
+                margin-right: 102px;
+                color: cornsilk;
+                font-size: 15px;
+        }
+        #form p {
+            display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+        }
+        #form li {
+            margin: auto;
+        }
+        #forgotLink {
+            color: #a9bcf5 !important;
+        }
+    </style>
 </head>
 <body>
     <div id="header_wrapper">
         <div id="header">
 
-            <form action="", method="POST">
-                {% csrf_token %}
+            <form style="display: flex" action="" id="userLoginForm" method="POST">
+                <div id="form">
+                    {% csrf_token %}
                 {{ form.as_p }}
                 <li><input type="submit" class="btn btn-success" value="Log In"></li>
+                </div>
+                <a id="forgotLink" href="#">Forgot Password?</a>
             </form>
 
         </div>
